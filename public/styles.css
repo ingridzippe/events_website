@@ -15,7 +15,6 @@ body {
 .navbar-case {
 	width: 1100px;
 	margin: 0 auto;
-
 }
 .drip {
 	display: inline;
@@ -53,7 +52,23 @@ body {
 	text-align: center;
 	margin: 20px;
 }
-
+.nav:hover {
+	color: #D4CCC5;
+}
+.investor {
+	text-decoration: none;
+	color: #000;
+}
+.investor:hover {
+	color: #D4CCC5;
+}
+.testflight {
+	text-decoration: none;
+	color: #000;
+}
+.testflight:hover {
+	color: #D4CCC5;
+}
 .words {
 	padding-top: 100px;
 	height: 780px;
