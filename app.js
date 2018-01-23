@@ -19,7 +19,15 @@ app.get('/', function(req, res) {
   res.render('index')
 });
 
+app.get('/contact', function(req, res) {
+	res.render('contact')
+})
 
-var port = process.env.PORT || 3000;
+app.get('/update', function(req, res) {
+	res.render('update')
+})
+
+
+var port = process.env.PORT || 8080;
 app.listen(port);
 console.log('Express started. Listening on port %s', port);
