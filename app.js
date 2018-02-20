@@ -37,6 +37,10 @@ app.get('/update', function(req, res) {
 	res.render('update')
 })
 
+app.get('/demo', function(req, res) {
+	res.render('demo')
+})
+
 
 var port = process.env.PORT || 8080;
 app.listen(port);
