@@ -76,6 +76,14 @@ body {
 .demo:hover {
 	color: #D4CCC5;
 }
+.download {
+	text-decoration: none;
+	color: #000;
+  margin-left: 77px;
+}
+.download:hover {
+	color: #D4CCC5;
+}
 .words {
 	padding-top: 100px;
 	height: 780px;
@@ -85,6 +93,12 @@ body {
   top: 37%;
   transform: translateY(-50%);*/
 /*    border: 1px solid #000;*/
+}
+#jimin {
+	margin-top: 0px;
+}
+#dropusaline {
+  margin-left: 200px;
 }
 .phone {
 	float: left;
